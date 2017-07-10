@@ -10,3 +10,51 @@
 body {
   padding-top: 70px;
 }
+
+h1, .h1 {
+    text-align: center;
+}
+
+.navbar-default {
+    background-color: #000;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  float: left;
+  padding: 15px 15px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 20px;
+  height: 50px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #484848;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #ccc;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.page-header {
+    padding-bottom: 40px;
+}
